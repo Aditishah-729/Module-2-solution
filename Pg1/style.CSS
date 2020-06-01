@@ -1,0 +1,157 @@
+			
+*{
+	box-sizing: border-box;
+	font-family: times new roman;
+}
+
+
+.heading {
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+} 
+
+.nameha {
+	float: right;
+	font-weight: 900px;
+	border-right: 1px solid black;
+	border-left: 2px solid black;
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	background-color: #F08080;
+	color: black;
+	padding: 3px;
+}	
+
+.namehe {
+	float: right;
+	font-weight: 900px;
+	border-right: 1px solid black;
+	border-left: 2px solid black;
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	background-color: #F0E68C;
+	color: black;
+	padding: 3px;
+}	
+
+.namero {
+	float: right;
+	font-weight: 900px;
+	border-right: 1px solid black;
+	border-left: 2px solid black;
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	background-color: #FFB6C1;
+	color: black;
+	padding: 3px;
+}	
+
+.centerha {
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+.centerhe {
+	margin-right: 6%;
+	margin-left: 6%;
+}
+
+#harrycolor {
+	background-color: #C0C0C0;
+
+}
+
+#hermionecolor {
+	background-color: #C0C0C0;
+}
+
+#roncolor {
+	background-color: #C0C0C0;
+}
+
+/* .col-sm {
+		float: left;
+		border: 1px solid black;
+		padding: 11px;
+		width: 96%;
+		margin: 1%;
+		text-align: justify;
+	} */
+
+section div:hover {
+			background-color: #E6E6FA;
+		}
+
+.spacing {
+	padding: 11px;
+}
+
+
+@media (min-width: 992px) {
+
+	.col-lg {
+		float: left;
+		border: 1px solid black;
+		padding: 0px;
+		width: 31%;
+		margin: 1%;
+		text-align: justify;
+	}
+
+	.centerro1 {
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 5%
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.col-md1 {
+		float: left;
+		border: 1px solid black;
+		padding: 0px;
+		width: 48%;
+		margin: 1%;
+		text-align: justify;
+	}
+
+	.centerro2 {
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+
+	.col-md2 {
+		float: left;
+		border: 1px solid black;
+		padding: 15px;
+		width: 98%;
+		margin: 1%;
+		text-align: justify;
+	}
+
+	.col-md2-ron {
+		float: left;
+		padding: 10px;
+		width: 49%;
+	}
+}
+
+ @media (max-width: 767px) { 
+
+	.col-sm {
+		float: left;
+		border: 1px solid black;
+		padding: 0px;
+		width: 98%;
+		margin: 1%;
+		text-align: justify;
+	}
+
+	.centerro3 {
+	margin-right: 10%;
+	margin-left: 10%;
+	}
+} 
